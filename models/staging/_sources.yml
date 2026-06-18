@@ -2,9 +2,13 @@ version: 2
 
 sources:
   - name: raw
-    schema: learndbt    # CHANGE THIS to your actual schema name
+    schema: FORMULA1
     tables:
-      - name: raw_customers
-      - name: raw_orders
-      - name: raw_products
-      - name: raw_payments
+      - name: RAW_FORMULA1_2025SEASON_CALENDAR
+      - name: RAW_FORMULA1_2025SEASON_DRIVEROFTHEDAYVOTES
+      - name: RAW_FORMULA1_2025SEASON_DRIVERS
+      - name: RAW_FORMULA1_2025SEASON_QUALIFYINGRESULTS
+      - name: RAW_FORMULA1_2025SEASON_RACERESULTS
+      - name: RAW_FORMULA1_2025SEASON_SPRINTQUALIFYINGRESULTS
+      - name: RAW_FORMULA1_2025SEASON_SPRINTRESULTS
+      - name: RAW_FORMULA1_2025SEASON_TEAMS
